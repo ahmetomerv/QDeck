@@ -10,7 +10,7 @@ QDECK helps you organize a job search. Build targeted Google queries for job boa
 - Work through due searches in a session, marking each one done or skipping it.
 - Save a job and track its status from interesting to applied.
 
-Your data stays in your browser's localStorage. Export a backup in Settings before changing browser or URL.
+QDECK stores your data only in your browser. Use **Settings → Export data** to download a backup regularly, especially before clearing browser data or switching devices.
 
 ## Run locally
 
@@ -38,4 +38,4 @@ Issues and pull requests are welcome.
 
 ## License
 
-[MIT](./LICENSE).
+[MIT](./LICENSE)

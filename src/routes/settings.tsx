@@ -102,6 +102,9 @@ function SettingsPage() {
         </Card>
 
         <Card title="Data" hint={`${queries.length} queries · ${jobs.length} jobs · ${sessionHistory.length} sessions`}>
+          <p className="text-xs text-muted-foreground">
+            QDECK stores your data only in this browser. Export a backup regularly, especially before clearing browser data or switching devices.
+          </p>
           <div className="flex flex-wrap gap-2">
             <Button variant="outline" size="sm" onClick={exportData}><Download /> Export data</Button>
             <Button variant="outline" size="sm" onClick={() => fileRef.current?.click()}><Upload /> Import data</Button>
